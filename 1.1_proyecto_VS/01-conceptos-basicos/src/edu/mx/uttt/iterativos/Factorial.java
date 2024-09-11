@@ -60,8 +60,10 @@ public class Factorial {
 
     @Override
     public String toString(){
-            return "El factorial ("+ this.n + ") = " + this.calcular();
+        return "El factorial ("+ this.n + ") = " + this.calcular();
     }
+
+    // 3 CICLOS
 
 
 
