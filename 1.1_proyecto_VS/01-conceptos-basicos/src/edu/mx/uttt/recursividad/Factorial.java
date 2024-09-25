@@ -36,20 +36,22 @@ switch (opcion) {
 return r;
 }
 
-public long factR(int n){
+
+//public long factR(int n){
     //caso Base 
-    if(n==1){
-        return 1;
-    }else{
+//    if(n==1){
+   //     return 1;
+//    }else{
+ //       n;
         //caso General
-        return factR(n-1)*n;
-       }
-}
+        
+ //      }
+//}
 
 private long factorialFor(){
     long fact =1;
  for( int i=1;i<=this.n;i++){
-    fact*=i;
+    fact/=i;
  }
  return fact;
 }

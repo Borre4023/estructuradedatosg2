@@ -60,7 +60,7 @@ public class TestRecursividad {
                 n = Integer.parseInt(JOptionPane.showInputDialog(null,"Introduce el Valor de Factorial a calcular"));
                 f.setN(n);
 
-            f.factR(f.getN());
+            //f.(f.getN());
             JOptionPane.showMessageDialog(null, "f( "+f.getN()+" )");
 
             break;
